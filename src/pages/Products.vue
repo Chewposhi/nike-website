@@ -84,8 +84,9 @@
         }
       },
       removeFromCart(indexToRemove) {
-            if (indexToRemove >= 0 && indexToRemove < this.cartItems.length) {
-                this.cartItems.splice(indexToRemove, 1);
+            const index = this.cartItems.findIndex(item => item.index === indexToRemove);
+            if (index >= 0) {
+                this.cartItems.splice(index, 1);
             } else {
                 console.log("Invalid index to remove");
             }

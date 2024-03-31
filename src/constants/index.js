@@ -35,18 +35,18 @@ export const shoesCards = [
     { imgUrl: bigShoe12 },
 ]
 export const products = [
-    { imgUrl: bigShoe6, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe7, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe8, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe9, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe10, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe1, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe2, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe3, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe4, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
-    { imgUrl: bigShoe5, label: "Nike Air Jordan-10", rating: "4.7", price: "230.20" },
+    {imgUrl: bigShoe6, label: "Adidas Ultra Boost 5.0", rating: "4.7", price: "230.20", index: 0 },
+    { imgUrl: bigShoe7, label: "Puma RS-X Reinvention", rating: "4.5", price: "179.80", index: 1 },
+    { imgUrl: bigShoe8, label: "Reebok Classic Leather", rating: "1.9", price: "255.60", index: 2 },
+    { imgUrl: bigShoe9, label: "New Balance Fresh Foam 1080", rating: "3.2", price: "221.20", index: 3 },
+    { imgUrl: bigShoe10, label: "Under Armour HOVR Phantom 2", rating: "4.7", price: "199.20", index: 4 },
+    { imgUrl: bigShoe1, label: "ASICS Gel-Nimbus 23", rating: "2.0", price: "299.20", index: 5 },
+    { imgUrl: bigShoe2, label: "Brooks Ghost 14", rating: "3.7", price: "187.20", index: 6 },
+    { imgUrl: bigShoe3, label: "Saucony Kinvara 12", rating: "5.0", price: "211.20", index: 7 },
+    { imgUrl: bigShoe4, label: "Mizuno Wave Rider 25", rating: "3.6", price: "249.20", index: 8 },
+    { imgUrl: bigShoe5, label: "Nike Air Jordan-10", rating: "2.8", price: "259.20", index: 9 }
+];
 
-]
 
 
 

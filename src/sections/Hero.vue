@@ -1,4 +1,5 @@
 <script setup>
+import { useRouter } from "vue-router";
 import Button from "../components/Button.vue";
 import arrowRight from "../assets/icons/arrow-right.svg";
 import { statistics, shoesCards } from "../constants/index";
@@ -11,6 +12,13 @@ const bigImageUrl = ref(shoesCards[0].imgUrl);
 
 const changeHeroImg = (imgUrl) => {
   bigImageUrl.value = imgUrl;
+};
+
+const router = useRouter();
+
+const navigateToShop = () => {
+  // Function to navigate to the "Shop" page
+  router.push("/products"); 
 };
 </script>
 
@@ -30,7 +38,7 @@ const changeHeroImg = (imgUrl) => {
         Discover stylish Nike arrivals, quality <br />
         comfort, and innovation for your active life.
       </p>
-      <Button :iconUrl="arrowRight">Shop now</Button>
+      <Button :iconUrl="arrowRight" @click="navigateToShop">Shop now</Button>
       <div class="flex justify-start flex-wrap items-start md:gap-16 gap-6 w-full mt-10">
         <div v-for="stat in statistics" :key="stat.label">
           <span class="md:text-4xl font-bold font-palanquin text-3xl">{{
